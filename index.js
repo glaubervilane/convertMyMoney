@@ -32,7 +32,7 @@ app.get('/cotacao', (req, res) => {
     }
 })
 
-app.listen(3000, err => {
+app.listen(port, err => {
     if(err){
         console.log('It is not possible start')
     }
